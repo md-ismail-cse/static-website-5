@@ -1,0 +1,124 @@
+tr:hover{
+	background:none!important;
+}
+tr:nth-child(even) {
+    background-color:white!important;
+}
+.fuclty_m_img{
+	border-radius:100%;
+	transition:0.5s;
+}
+.fuclty_m_img:hover{
+	transform: scale(1.1);
+}
+.fuclty_m_pic {
+	height:25%;
+	width:25%;
+	border-radius:100%;
+	padding:3px;
+	border:1px solid silver;
+	margin-left:33%;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+}
+.fuclty_m_pic:before {
+	position: absolute;
+	z-index: -1;
+	content: '';
+	border-style: solid;
+	transition-duration: 0.3s;
+	transition-property: transform;
+	top: calc(50% - 10px);
+	right: 3px;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent blue;
+}
+.fuclty_m_pic:hover:before, .fuclty_m_pic:focus:before, .fuclty_m_pic:active:before {
+	-webkit-transform: translateX(10px);
+	transform: translateX(300%);
+}
+.faculty_m_name{
+	line-height:40px;
+}
+.faculty_m_name a{
+	color:#2E3990;
+}
+.faculty_m_name a:hover{
+	color:#095809;
+	border-bottom:1px solid #095809;
+}
+.faculty_m_title{
+	line-height:5px;
+}
+.faculty_email:hover{
+	border-bottom:1px solid;
+}
+.adject_f_member{
+	color:blue;
+	margin-top:-20px;
+	margin-bottom:20px;
+	text-align:center;
+}
+.faculty_top_row{
+	width:90%;
+	margin:0px auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.faculty_img_box{
+	height:220px;
+	width:70%;
+	padding:3px;
+	border:3px inset gray;
+	cursor: -webkit-grab; 
+	cursor: silver;
+	border-radius:5px;
+}
+.faculty_page_title{
+	color:blue;
+	font-style:italic;
+}
+.course_col{
+	padding:0px 7%;
+}
+.course_menu {
+  cursor: pointer;
+  padding:4px 10px;
+  margin-bottom:3px;
+  background-color:#2E3990;
+  color:silver;
+  border:1px solid #bbb;
+  border-radius:5px;
+  display: inline-block;
+  font-weight:bold;
+  transition: background-color 0.6s ease;
+}
+
+.active, .course_menu:hover {
+  background-color:#095809;
+  color:silver;
+}
+.course_menu_back{
+	background:red;
+	margin-bottom:30px;
+}
+.course_menu_back:hover{
+	background:#2E3990;
+}
+.research{
+	padding:10px 0px;
+	margin-top:20px;
+	font-size:14px;
+	border-top:1px solid silver;
+	border-bottom:1px solid silver;
+}
+.education{
+	font-size:14px;
+}
+.education:first-child{
+	margin-top:20px;
+}

@@ -1,0 +1,83 @@
+.admission_pera{
+    width: 90%;
+    margin: 0px auto;
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    margin-bottom: 15px;
+	font-weight:600;
+}
+.admission_pera_title{
+	padding:0px 5%;
+	font-weight:600;
+	color:#095809;
+	font-style:italic;
+	width:90%;
+}
+.admission_list{
+	width:90%;
+	margin-left:8%;
+	font-size:14px;
+	list-style:none;
+}
+.admission_list i{
+	color:blue;
+	margin-right:3px;
+	font-weight:600;
+}
+.admission_p_sub_title{
+	color:blue;
+	font-weight:600;
+	padding:0px 7%;
+	font-size:19px;
+}
+.admission_list:last-of-type{
+	margin-bottom:50px;
+}
+.addmission_span_1{
+	font-weight:800;
+}
+.admission_table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+	margin:0px auto;
+    border: 1px solid #ddd;
+	margin-bottom:30px;
+}
+.admission_th_head{
+	background-color: #095809;
+	color:#fff; 
+	font-weight:bold;
+	text-align: left;
+    padding:5px 5px;
+    border: 1px solid #ddd;
+	font-size:15px;
+	cursor:default;
+}
+td {
+    text-align: left;
+    padding:3px 5px;
+    border: 1px solid gray;
+	font-size:15px;
+	cursor:default;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+tr:hover{
+    background-color:silver;
+}
+.total_amount{
+	background:tomato;
+	color:white;
+	cursor:default;
+	font-weight:bolder;
+	padding:8px 5px;
+}
+.admission_gpa{
+	border:1px solid gray;
+	width:30%;
+	margin-left:10%;
+	margin-bottom:50px;
+}

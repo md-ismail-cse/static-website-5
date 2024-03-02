@@ -1,0 +1,13 @@
+.gallery_main_row{
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.gallery_main_row img{
+	height:150px;
+	border:1px solid black;
+	padding:5px;
+}
+.img_col{
+	padding:5px 5px;
+}
